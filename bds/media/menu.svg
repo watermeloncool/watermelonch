@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="150"
+   viewBox="0 0 47.624999 39.6875"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="menu.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1393007"
+     inkscape:cx="10.532777"
+     inkscape:cy="16.676897"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.13944;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1.0"
+       id="rect1-3"
+       width="45.520126"
+       height="6.435811"
+       x="1.0777838"
+       y="16.524065" />
+    <g
+       id="g1"
+       transform="matrix(0.99236816,0,0,1,-97.574151,127.09561)"
+       style="fill:#000000;fill-opacity:1.0">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.139975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1.0"
+         id="rect1"
+         width="45.870201"
+         height="6.435811"
+         x="99.410622"
+         y="-125.84745" />
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.139975;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1.0"
+         id="rect1-3-2"
+         width="45.870201"
+         height="6.435811"
+         x="99.410622"
+         y="-95.295647" />
+    </g>
+  </g>
+</svg>
