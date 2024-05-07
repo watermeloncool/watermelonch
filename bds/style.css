@@ -7,12 +7,27 @@
 /* global ------------------------------------------------- */
 body,html{ background-color: white; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; scroll-behavior: smooth; margin:0; padding:0; font-size:16px; font-weight:500;   }
 h1 {text-align:center;}
-.section {width:100%; padding:40px 0 50px 0; text-align:center;}
-.section h1 {padding-bottom:10px; font-size:40px; }
-.section p {width:650px; margin-left:auto; margin-right:auto; font-weight:400; font-size:19px; line-height:150%; color:rgb(100,100,100);  }
+.section {width:100%; padding:0 0 60px 0; text-align:center;}
+.section h1 {width:800px; margin-left:auto; margin-right:auto; margin-top:0; padding:70px 0 30px 0; font-size:40px; }
+.section h2 {width:800px; margin:0 auto 20px auto; text-align:left; }
+.section p {width:800px; margin-left:auto; margin-right:auto; text-align:left; font-weight:400; font-size:19px; line-height:150%; color:black;  }
+a {text-decoration:none; color:black;}
+table {width:800px; text-align:left; margin: 0 auto 50px auto; line-height:170%; font-weight:400; }
+table td {padding:15px 15px 0 0; font-size:19px; }
+table br {display:block; height:50px; }
+table .material-symbols-outlined {font-variation-settings:'FILL' 1,'wght' 550,'GRAD' 0,'opsz' 48; font-size:35px; }
+table tr td:first-child {width:40px;}
+.image {width:100%; margin-bottom:-5px; }
+
+@media screen and (max-width: 850px) { 
+  .section h1 {width:90%;}
+  .section h2 {width:90%; }
+  .section p {width:90%; }
+  table {width:90%; }
+ }
 
 /* menu --------------------------------------------------- */
-#menu {position:fixed; width:100%; top:0; z-index:100; text-align:center; background:rgba(255,255,255,0.25); -webkit-backdrop-filter: blur(15px); backdrop-filter: blur(15px); font-size:13px; padding:10px 0; }
+#menu {position:fixed; width:100%; top:0; z-index:100; text-align:center; background:rgba(255,255,255,0.5); -webkit-backdrop-filter: blur(15px); backdrop-filter: blur(15px); font-size:13px; padding:10px 0; }
 @media screen and (max-width: 870px) { #menu {display:none;} }
 #menu img {width:45px; vertical-align:middle; margin:0 15px;}
 #menu div {display:inline-block; margin:0 15px; }
@@ -40,23 +55,58 @@ h1 {text-align:center;}
 
 /* nos services ---------------------------------------------- */
 #services {background:rgb(240,240,240);  }
-#services .colonne {width:370px; font-size:25px; font-weight:500; display:inline-block; vertical-align:top;  }
-#services .service { position:relative; margin:25px 10px; padding:25px 20px 55px 25px; background:rgba(255,255,255,1); border-radius:25px; text-align:left;  }
+#services .colonne {width:400px; font-size:25px; font-weight:500; display:inline-block; vertical-align:top;  }
+#services .service { position:relative; margin:5px 10px 20px 10px; padding:25px 20px 55px 25px; background:rgba(255,255,255,1); border-radius:25px; text-align:left;  }
 #services .material-symbols-outlined {font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 48; font-size:45px; margin-bottom:15px;}
 #services .material-symbols-outlined.plus {font-variation-settings:'FILL' 1,'wght' 500,'GRAD' 0,'opsz' 48; font-size:40px; margin-top:0; position:absolute; right:15px;  }
-
+#services .material-symbols-outlined.comptabilite {font-variation-settings:'FILL' 1,'wght' 1000,'GRAD' 0,'opsz' 48;  }
+#services a {color:black;}
 
 
 /* temoignages -------------------------------------------- */
 #temoignages {background:white;  }
+#temoignages h1 {padding-bottom:0;}
 #temoignages #note {text-align:center; font-size:30px; font-weight:700; }
-#temoignages #note img {width:80px;margin:10px 0 20px 0;}
+#temoignages #note img {width:80px;margin:0 0 20px 0;}
 #temoignages .conteneur {white-space: nowrap; overflow-x: auto; font-size: 0; padding:10px; }
+#temoignages .conteneur::-webkit-scrollbar {display: none;}
 #temoignages .temoignage {display:inline-block; background:white; vertical-align:top; width:320px; height:160px; margin:0 10px 10px 10px; padding:20px; border:solid 1px rgb(220,220,220); border-radius:15px; text-align:left; }
 #temoignages .temoignage .nom {font-size:20px; white-space: normal;}
 #temoignages .temoignage img {width:80px; margin:10px 0;}
-#temoignages .temoignage .texte {font-size:16px; white-space: normal; line-height:150%; color:rgb(80,80,80); }
+#temoignages .temoignage .texte {font-size:16px; white-space: normal; line-height:150%; }
 
-/* google ------------------------------------------------- */
-#google {background:rgb(240,240,240);}
-#googlemap {width:80%; margin-left:10%; border-radius:10px;}
+/* création --------------------------------------------- */
+#creation {background:black; color:white;}
+#creation p {color:rgb(200,200,200); }
+#creation h2 {margin-top:60px;}
+#creation table {color:rgb(200,200,200);}
+#creation table b {color:white;}
+
+/* declaration --------------------------------------------- */
+#declaration {background:rgb(30,30,30); color:white;}
+#declaration p {color:rgb(200,200,200);}
+
+/* rectification --------------------------------------------- */
+#rectification {background:rgb(240,240,240); color:black;}
+
+/* domiciliation --------------------------------------------- */
+#domiciliation table {color:black;}
+#domiciliation b {color:black;}
+
+/* comptabilité --------------------------------------------- */
+#comptabilite {background:rgb(240,240,240); }
+
+/* contact ------------------------------------------------- */
+#contact {background:rgb(30,30,30); color:white;}
+#contact .bloc {text-align:left;display:inline-block; vertical-align:top; margin:10px 50px;font-size:19px; line-height:150%; font-weight:400;}
+#contact .titre {margin-bottom:10px; font-weight:700; }
+#contact .whatsapp {/*color:rgb(37,211,102);*/ color:var(--blue);}
+#googlemap {width:90%; border-radius:15px;margin-top:50px;}
+
+/* bottom ------------------------------------------------- */
+#bottom {background:black; color:white; padding:20px; text-align:center;}
+#bottom span {margin:0 10px;}
+#bottom a {color:white;}
+
+/* chat ------------------------------------------------- */
+#chat {position:fixed; bottom:20px; right:20px; z-index:101;  background:var(--blue); color:white; padding:10px 15px; border-radius:10px; }
