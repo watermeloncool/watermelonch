@@ -54,7 +54,7 @@ table tr td:first-child {width:40px;}
 #video-contenu {height:100vh; position: relative; z-index: 1; text-align: center; }
 #video-logo {padding-top: calc(50vh - 100px); height:200px;}
 @media screen and (max-width: 650px) { 
-  #video-logo {width:80%; padding-top: 45vh; }
+  #video-logo {width:80%; height:auto; padding-top: 40vh; }
 }
 
 /* nos services ---------------------------------------------- */
