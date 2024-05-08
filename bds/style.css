@@ -81,6 +81,9 @@ table tr td:first-child {width:40px;}
 #temoignages .temoignage .nom {font-size:20px; white-space: normal;}
 #temoignages .temoignage img {width:80px; margin:10px 0;}
 #temoignages .temoignage .texte {font-size:16px; white-space: normal; line-height:150%; }
+@media screen and (max-width: 650px) { 
+  #temoignages .temoignage {width:200px; height:250px;  }
+}
 
 /* création --------------------------------------------- */
 #creation {background:black; color:white;}
@@ -107,6 +110,7 @@ table tr td:first-child {width:40px;}
 #contact {background:rgb(30,30,30); color:white;}
 #contact .bloc {text-align:left;display:inline-block; vertical-align:top; padding:10px 50px;font-size:19px; line-height:150%; font-weight:400;}
 #contact .titre {margin-bottom:10px; font-weight:700; }
+#contact a {color:white;}
 #contact .whatsapp {/*color:rgb(37,211,102);*/ color:var(--blue);}
 #googlemap {width:90%; border-radius:15px;margin-top:50px;}
 
