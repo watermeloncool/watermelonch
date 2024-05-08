@@ -28,3 +28,13 @@ fermerbtn.addEventListener('click', function() {
   menubtn.style.display = 'inline-block';
   fermerbtn.style.display = 'none';
 });
+
+
+/* fermer sous menu mobile */
+document.querySelectorAll('#sousmenumobile div').forEach(div => {
+  div.addEventListener('click', () => {
+    sousmenumobile.style.display = 'none';
+  menubtn.style.display = 'inline-block';
+  fermerbtn.style.display = 'none';
+  });
+});
