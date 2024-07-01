@@ -38,7 +38,7 @@ const titre = doc.getElementById("titre").textContent;
 
 const date = doc.getElementById("date").textContent;
 
-const image = document.querySelector('img');
+const image = document.querySelectorAll('img')[1];
 const imagesrc = image ? image.src : null;
 
 const texte = doc.querySelectorAll('p');
