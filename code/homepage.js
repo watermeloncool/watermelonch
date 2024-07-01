@@ -43,7 +43,7 @@ let textefinal = '';
 texte.forEach(p => {  textefinal = textefinal + " " + p.textContent; });
 textefinal = textefinal.trimStart().slice(0, 200) + "...";
 
-articles[i].innerHTML = '<a href="'+url+'"><div class="titre">'+titre+'</div><div class="date">'+date+'</div><div class="texte">'+textefinal+'</div></a>';
+articles[i].innerHTML = '<a href="'+url+'"> <div class="gauche"><div class="titre">'+titre+'</div><div class="date">'+date+'</div><div class="texte">'+textefinal+'</div></div> <div class="image"></div> </a>';
 
 })
 .catch(error => console.error(`Erreur : ${error.message}`));
