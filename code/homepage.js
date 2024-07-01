@@ -41,7 +41,7 @@ const date = doc.getElementById("date").textContent;
 const texte = doc.querySelectorAll('p');
 let textefinal = '';
 texte.forEach(p => {  textefinal = textefinal + " " + p.textContent; });
-textefinal = textefinal.trimStart().slice(0, 200) + "...";
+textefinal = textefinal.trimStart().slice(0, 150) + "...";
 
 articles[i].innerHTML = '<a href="'+url+'"> <div class="gauche"><div class="titre">'+titre+'</div><div class="date">'+date+'</div><div class="texte">'+textefinal+'</div></div> <div class="image"></div> </a>';
 
